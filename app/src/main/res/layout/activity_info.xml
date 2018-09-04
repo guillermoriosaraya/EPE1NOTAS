@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/inicio"
+    android:padding="10px"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="179dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="CONTACTO"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="116dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Guillermo Rios Araya"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="116dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="guillermo.rios.araya@gmail.com"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+
